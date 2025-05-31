@@ -3,7 +3,7 @@
 
 This is a simple, API-only URL Shortener service written in Golang as part of a Product Engineer assignment.
 
-Features
+🚀 Features
 -----------
 - Shortens long URLs via REST API
 - Returns the same short URL for duplicate original URLs
@@ -12,7 +12,7 @@ Features
 - Provides metrics for top 3 most frequently shortened domains
 - [BONUS] Dockerized for easy deployment
 
-Assignment Reference
+📚 Assignment Reference
 -----------------------
 This project was built in response to the following requirements:
 
@@ -24,7 +24,7 @@ Build a simple URL shortener service with a REST API that:
 - Exposes a metrics API for top 3 domains shortened most frequently
 - [BONUS] Provide Dockerfile for containerized execution
 
-Technologies Used
+🛠️ Technologies Used
 ---------------------
 - Golang — Core language
 - net/http — HTTP server
@@ -32,7 +32,7 @@ Technologies Used
 - Go modules — Dependency management
 - Docker — Containerization (Bonus)
 
-Installation & Run
+📦 Installation & Run
 ----------------------
 
 ▶️ Run using Go:
@@ -41,11 +41,11 @@ Installation & Run
     go mod tidy
     go run main.go
 
-Run using Docker:
+🐳 Run using Docker:
     docker build -t url-shortener .
     docker run -p 8080:8080 url-shortener
 
-API Endpoints
+🔗 API Endpoints
 -----------------
 
 1. Shorten URL
@@ -76,13 +76,13 @@ API Endpoints
          }
        }
 
-Tests
+🧪 Tests
 --------
 To run unit tests:
 
     go test ./...
 
-Project Structure
+📁 Project Structure
 --------------------
 url-shortener/
 ├── main.go
